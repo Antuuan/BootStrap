@@ -14,14 +14,11 @@
     background-color: white;
 }
 
-.F15_bg{
-    background-image: url("f15_active.jpg");
-
-    background-position: center center;
-
-    min-height: 100%;
-
-    background-size: cover;
+.nav_colour{
+    background-color: #ff0000;
+    color: black;
+    opacity:0;
+    
 }
 
 .big_padding{
@@ -63,4 +60,11 @@
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.centre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
